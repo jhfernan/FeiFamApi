@@ -1,0 +1,34 @@
+{
+	"income": [
+		{
+			"name": "Kaiwen Academy",
+			"amount": 15000
+		},
+		{
+			"name": "Ikids Teaching",
+			"amount": 1500
+		}
+	],
+	"expenses": [
+		{
+			"name": "Rent",
+			"amount": 600
+		},
+		{
+			"name": "Utilities",
+			"amount": 500
+		},
+		{
+			"name": "Food",
+			"amount": 4000
+		},
+		{
+			"name": "Phones",
+			"amount": 200
+		},
+		{
+			"name": "Transportation",
+			"amount": 1000
+		}
+	]
+}

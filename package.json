@@ -1,17 +1,30 @@
 {
-  "name": "api",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
-  "dependencies": {
-    "body-parser": "~1.18.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.15.5",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.0",
-    "serve-favicon": "~2.4.5"
-  }
+	"name": "API",
+	"version": "0.0.0",
+	"description": "API Backend for Fei Fam App",
+	"private": true,
+	"scripts": {
+		"start": "PORT=8000 node ./bin/www"
+	},
+	"author": {
+		"name": "Jonathan Fernandes",
+		"email": "jonathan@teamboxfort.com",
+		"url": "https://github.com/jhfernan"
+	},
+	"engines": {
+		"node": "10.8.0"
+	},
+	"dependencies": {
+		"bcrypt": "^3.0.6",
+		"body-parser": "~1.18.2",
+		"cors": "^2.8.5",
+		"debug": "~2.6.9",
+		"express": "^4.17.1",
+		"helmet": "^3.21.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.7.1",
+		"morgan": "~1.9.0",
+		"nodemailer": "^6.3.0",
+		"socket.io": "^2.2.0"
+	}
 }
